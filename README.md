@@ -26,5 +26,15 @@ Reference Material
 
 2. Chi Square
 
+The chi-squared statistic, a measure of how far the observed values are from the expected values. Larger values indicate a greater difference between observed and expected, suggesting a significant association.
+
+The p-value associated with the test. This tells you the probability of observing the data if there is no association between the categorical variables. A small p-value (usually less than 0.05) indicates that you can reject the null hypothesis of independence.
+
+ Degrees of freedom. This is calculated based on the dimensions of the contingency table and is used to determine the critical value from the chi-squared distribution.
+
+ Ann array containing the expected frequencies under the assumption of independence. It shows what you would expect to observe if there were no association between the variables.
+
+ After running this code, you can interpret the results. If the p-value is less than your chosen significance level (commonly 0.05), you may reject the null hypothesis of independence and conclude that there is evidence of a significant association between the categorical variables. The expected frequencies can be used to explore where the differences between observed and expected values lie in the contingency table.
+
 
 
