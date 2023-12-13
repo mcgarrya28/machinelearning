@@ -42,5 +42,14 @@ The p-value associated with the test. This tells you the probability of observin
 
  Within the code the equal_var=False argument indicates that the variances of the two groups are not assumed to be equal.
 
+ After running this code, you'll get the t-statistic and p-value, which you can use to determine whether there is a statistically significant difference between the means of the two groups. Typically, if the p-value is below a chosen significance level (0.05), you reject the null hypothesis and conclude that there is a significant difference. In this case the p value is               1.8677596749117468e-28.
+
+
+ 4. Iris Dataset - Setosa
+
+ Here, using Seaborn and Matplotlib to create a pairplot for the Iris dataset. This pairplot is used to visualize the relationships between different features in the dataset, with different species represented by different markers.
+
+ The code then goes on to create a number of individual boxplots to show the distribution of sepal length, sepal width, petal length, and petal width for each species in the dataset, helping to identify potential differences or patterns in the data.
+
 
 
