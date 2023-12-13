@@ -36,5 +36,11 @@ The p-value associated with the test. This tells you the probability of observin
 
  After running this code, you can interpret the results. If the p-value is less than your chosen significance level (commonly 0.05), you may reject the null hypothesis of independence and conclude that there is evidence of a significant association between the categorical variables. The expected frequencies can be used to explore where the differences between observed and expected values lie in the contingency table.
 
+ 3. Pengiun Data Set 
+
+ The code performs an independent two-sample t-test using SciPy's ttest_ind function. This test is used to determine if there is a significant difference between the means of two independent groups in this case the body mass of male and females. The code assumes that male_body_mass and female_body_mass are arrays or lists containing the body masses of males and females, respectively.
+
+ Within the code the equal_var=False argument indicates that the variances of the two groups are not assumed to be equal.
+
 
 
