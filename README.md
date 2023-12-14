@@ -1,5 +1,17 @@
 # machinelearning
-This repository relates to all tasks and project assigned in the machine learning module
+This repository relates to all tasks and project assigned in the machine learning module. The tasks and project are written in juypther notebooks. 
+
+The Python libraries required are part of the Anaconda package and are preinstalled.
+
+Required Packages:
+
+- Numpy
+- scipy
+- Seaborn
+- Matplotlib
+- sklearn
+- Pandas
+
 
 1. Newton's Method
 
